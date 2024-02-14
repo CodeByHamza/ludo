@@ -1,0 +1,36 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin: 0%;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* .img {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: antiquewhite;
+    display: block;
+    width: 100px;
+    height: 100px;
+} */
+
+.text {
+    padding-top: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Star</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div id="images">
+            <!-- <img src="dice.png" alt="" id="image" style="width: 200px; height: 200px; border-radius: 13%;"> -->
+
+        </div>
+
+        <div class="text" id="text">
+            <h1></h1>
+        </div>
+
+        <div class="btn" id="button" style="padding-top: 50px;">
+            <button onclick="roll(); changeimage(); add()">
+                Roll
+            </button>
+        </div>
+        <!-- <button>zoom</button> -->
+        <img src="dice1.jpg" alt="" width="50px" height="100px" class="btn3">
+
+    </div>
+
+</body>
+<script>
+    // let img = document.getElementById("image");
+
+    // function roll() {
+    //     let a = Math.random() * 6 + 1;
+    //     let b = Math.trunc(a);
+    //     // document.getElementById("text").textContent = b;
+    //     // c = document.getElementById("text").textContent;
+    //     c = b;
+    // }
+
+    // function changeimage() {
+    //     if (c == 1) {
+    //         let imag = document.getElementById('image')
+    //         imag.src = 'dice1.jpg'
+    //     }
+    //     if (c == 2) {
+    //         let imag = document.getElementById('image')
+    //         imag.src = 'dice2.jpg'
+
+    //     }
+    //     if (c == 3) {
+    //         let imag = document.getElementById('image')
+    //         imag.src = 'dice3.jpg'
+
+    //     }
+    //     if (c == 4) {
+    //         let imag = document.getElementById('image')
+    //         imag.src = 'dice4.jpg'
+
+    //     }
+    //     if (c == 5) {
+    //         let imag = document.getElementById('image')
+    //         imag.src = 'dice5.jpg'
+
+    //     }
+    //     if (c == 6) {
+    //         let imag = document.getElementById('image')
+    //         imag.src = 'dice6.jpg'
+
+    //     }
+
+
+    // }
+
+    // function add() {
+    //     for (let i = 0; i < 1; i++) {
+    //         let d = c;
+    //         e = c + d;
+
+    //     }
+    //     console.log(e);
+
+    //     document.getElementById("text").textContent = c;
+    // }
+    let img = document.querySelector(".img");
+    let btn3 = document.querySelector(".btn3");
+
+    btn3.onclick = () => {
+        img.style.width = "300px";
+    }
+</script>
+
+
+</html>
